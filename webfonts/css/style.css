@@ -1,0 +1,96 @@
+/* All common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: #dcdbdb;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerflex img {
+    width: 130px;
+    height: auto;
+    display: block;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    color: #024b26;
+}
+
+.menu ul li a i {
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.headerbtn {
+    display: flex;
+    align-items: space-netween;
+    gap: 15px;
+}
+
+.headerbtn a {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Community Button */
+.headerbtn a:first-child {
+    color: #024b26;
+    border: 1px solid #024b26;
+}
+
+.headerbtn a:first-child:hover {
+    background-color: #024b26;
+    color: #fafafa;
+}
+
+/* SignUp Button */
+.headerbtn a:last-child {
+    color: #024b26;
+    border: 1px solid #024b26;
+}
+
+.headerbtn a:last-child:hover {
+    background-color:#024b26;   
+     color: #fafafa;
+}
+
