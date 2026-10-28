@@ -44,10 +44,13 @@ body {
 
 .menu ul li a {
     text-decoration: none;
+    display: inline-block;
     color: #222222;
     font-size: 15px;
     font-weight: 500;
     transition: 0.4s;
+
+
 }
 
 .menu ul li a:hover {
@@ -94,4 +97,79 @@ body {
      color: #fafafa;
 }
 
+ /* banner part start */ 
 
+ #bannerpart {
+    padding: 95px 0;
+    background:url(../img/Rectangle\ 10.png) ;
+    background-repeat: no-reapet;
+    backround-size: cover;
+    background-position: center;
+ }
+ .bannerflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+ }
+ .bannerleft{
+    width:50%;
+ }
+ .bannerright{
+    width:50%;
+ }
+  .bannerContent {
+    padding-top: 65px;
+  }
+   .bannerContent h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: rgba(36, 43, 54, 1);
+  
+   }
+   .bannerContent p {
+    font-size: 16px;
+    font-weight: 400;
+    font-heiht:24px;
+    color: rgba(36, 43, 54, 1);
+    line-height: 24px;
+    position: relative;
+    top:-50px;
+   
+   }
+   .bannerContent a{
+    padding: 16px 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+    color: #024b26;
+    border: 1px solid #024b26;
+    margin-right: 10px;
+    position: relative;
+    top:-25px;
+    text-decoration: none;
+   }
+   .bannerContent a:hover{
+    background-color: #024b26;
+    color: #fafafa;
+   }
+   .bannerContent input{
+    width: 100%;
+    padding:16px;
+    border-radius: 8px;
+    margin-top: 20px;
+   }
+   .searchGroup{
+    position: relative;
+     bottom:-50px;
+  
+
+   }
+   .searchGroup a{
+       diplay:block-inline;
+   }
+  
+  .bannerright img{
+    width:100%;
+    height:auto;
+  }
+ /* banner part end */
